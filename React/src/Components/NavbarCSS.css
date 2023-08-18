@@ -1,0 +1,50 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid rgb(53, 164, 6); */
+    border-radius: 6px;
+}
+.NavLogo{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.NavText{
+    width: 88%;
+    display: flex;
+}
+.NavText ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    list-style: none;
+}
+.NavText li{
+    display: flex;
+    margin: 5px 20px;
+}
+.NavText a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 22px;
+    color: black;
+    font-family: monospace;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.NavText a:hover{
+    color: rgb(109, 199, 79);
+    border-radius: 10px;
+    
+}
+.NavText .active a{
+    color: rgb(109, 199, 79);
+    border-radius: 10px;
+}

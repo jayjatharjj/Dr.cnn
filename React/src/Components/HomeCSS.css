@@ -1,0 +1,401 @@
+.LandingPage{
+    margin: 20px 2% 80px;
+    box-shadow: 0px 0px 20px rgb(228, 227, 227);
+    padding: 100px 60px;
+}
+.LandingPageFlexbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.IntroText{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.IntroText span{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+.IntroText h2{
+    font-size: 65px;
+    font-family: sans-serif;
+    margin: 20px 20px;
+    color: rgb(76, 153, 50);
+}
+.IntroText .FullForm{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.IntroText .FullForm .Using{
+    margin-left: 10px;
+}
+.IntroText .FullForm h3{
+    margin: 0 0 0 10px;
+}
+.IntroText .FullForm .Network{
+    margin: 0 ;
+}
+.IntroText .FullForm .Network h3{
+    margin: 0 0 0 10px;
+}
+.IntroText h1{ 
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.IntroText p{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 0 0 0 50px;
+}
+.IntroText .Welcome{
+    display: flex;
+}
+.IntroImage{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px 0px;
+    margin-right: 20px;
+    border-radius: 12px;
+    box-shadow: -20px 20px 20px rgb(228, 227, 227);
+}
+.Title{
+    width: 100%;
+}
+.Title h2{
+    margin-left: 68px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.Title h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #EA4C89;
+}
+.Title p{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.Title .CardFlexbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.Title .CardFlexbox .Card{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 0 24px;
+    box-shadow: 0px 12px 12px rgb(228, 227, 227);
+    border-radius: 4px;
+    padding: 10px;
+}
+.Title .CardFlexbox .Card .CardImage{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Title .CardFlexbox .Card .CardImage img{
+    padding: 14px;
+}
+.Title .CardFlexbox .Card .line-Align{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Title .CardFlexbox .Card .line{
+    height: 2px;
+    width: 60px;
+    background-color: #EA4C89;
+}
+.Title .CardFlexbox .Card h3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.Title .CardFlexbox .Card .CardP{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 0;
+}
+.Title .CardFlexbox .Card p{
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.AboutSection h2{
+    margin-left: 68px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.AboutSection .AboutP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.AboutSection .AboutP img{
+    margin-right: 20px;
+}
+.AboutSection p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    line-height: 38px;
+    margin: 50px 5%;
+    padding: 50px;
+    box-shadow: 0px 0px 20px rgb(228, 227, 227);
+}
+.Diagnose h2{
+    margin-left: 68px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.Diagnose h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(109, 199, 79);
+}
+.DiagnoseBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 12px rgb(228, 227, 227);
+    margin: 50px 60px;
+    border-radius: 12px;
+}
+.DiagnoseBox .DB1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.DiagnoseBox .DB1 .DB1-Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.DiagnoseBox .DB1 input[type="file"]{
+    padding: 10px;
+}
+.DiagnoseBox .DB1 ::-webkit-file-upload-button {
+    background: rgb(109, 199, 79);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.DiagnoseBox .DB1 button{
+    background: rgb(109, 199, 79);
+    border: none;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.DiagnoseBox .DB1 .DB1-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DiagnoseBox .DB1 img{
+    padding: 10px;
+}
+.DiagnoseBox .DB2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    border-top: 1px solid rgb(216, 215, 215);
+}
+.DiagnoseBox .DB2 .DB2-Button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.DiagnoseBox .DB2 .DB2-Button button{
+    background: rgb(109, 199, 79);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.DiagnoseBox .DB2 .DB2-Result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.DiagnoseBox .DB2 .DB2-Result h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.DiagnoseBox .DB2 .DB2-Result .Loading{
+    font-family: monospace;
+}
+.DiagnoseBox .DB3{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 40px 0;
+    border-top: 1px solid rgb(216, 215, 215);
+}
+.DiagnoseBox .DB3 .DB3-Info ul{
+    color: rgb(76, 153, 50);
+    font-size: 24px;
+}
+.DiagnoseBox .DB3 .DB3-Info p{
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+}
+.DiagnoseBox .DB3 span{
+    display: flex;
+    justify-content: center;
+    color: rgb(76, 153, 50);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.ModelInfo h2{
+    margin-left: 68px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(76, 153, 50);
+}
+.ModelInfo .Description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 12px rgb(228, 227, 227);
+    border-radius: 10px;
+    margin: 40px 60px
+}
+.ModelInfo p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    margin: 40px 60px;
+}
+.ModelInfo .MInfoSection .MInfo-Button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModelInfo .MInfoSection button{
+    background: rgb(109, 199, 79);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.ModelInfo .MInfoSection .ConfusionMatrix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ModelInfo .MInfoSection .ConfusionMatrix .CM1{
+    display: flex;
+}
+.ModelInfo .MInfoSection .ConfusionMatrix .CM2{
+    display: flex;
+}
+.ModelInfo .MInfoSection .Loading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.ModelInfo .MInfoSection .Loading h1{
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(76, 153, 50);
+}
+.LineTitle{
+    height: 2px;
+    width: 100px;
+    background-color:rgb(76, 153, 50);
+    margin-left: 68px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 0;
+    border-top: 1px solid rgb(228, 227, 227);
+}
+.footer span{
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+    padding: 10px;
+}
+@media screen and (min-width: 1600px){
+    .IntroImage img{
+        width: 80%;
+    }
+    .Title .CardFlexbox .Card {
+        width: 8%;
+    }
+}
