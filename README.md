@@ -41,7 +41,7 @@ Step 3: Install all the packages for Python
 ```
 **Don't forget** pip install each and every package from requirements.txt
 
-## Reqiured adjustments
+## Required adjustments
 
 Download the models from https://drive.google.com/drive/folders/1G5-z9c3LPbntjoExjdpXvb19t4wQ18ok?usp=drive_link
 
