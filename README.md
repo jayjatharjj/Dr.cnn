@@ -39,7 +39,7 @@ Step 3: Install all the packages for Python
   sudo apt install python3-pip
   pip install flask
 ```
-**Don't forget** pip install each and every package from requirements.txt
+**Don't forget** to pip install each and every package from requirements.txt
 
 ## Required adjustments
 
